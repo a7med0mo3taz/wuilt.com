@@ -1,0 +1,791 @@
+        /* Start Global */
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            
+        }
+        body {
+            min-height: 100%;
+            background-color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        header, section1 {
+            background-color: #ebf8f6;
+        }
+        /* end global*/
+        
+        /* start Navigation Bar */
+        /*logo*/
+        header {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: transparent;
+            padding: 28px 12%;
+            transition: all .50s ease;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        /*-Navigation Bar Element*/
+        .navpar {
+            display: flex;
+        }
+        .navpar a {
+            font-size: 20px;
+            color: black;
+            font-weight: 500;
+            padding: 5px 0;
+            margin: 0px 30px;
+            transition: all.50s ease;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .navpar a:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        /*1st button*/
+        .button1 {
+            background-color: white;
+            border: 5px solid white;
+            border-radius: 50px;
+            color: black;
+            font-size: 20px;
+            font: bold;
+            display: inline-block;
+            padding: 10px;
+        }
+        .button1 a {
+            color: black;
+        }
+        .button1:hover a{
+            color: white;
+        }
+        .button1:hover {
+            color:white ;
+            border: 5px solid #189288;
+            background-color: #189288;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+        /*2nd BUTTON*/
+        .button2 {
+            border: 5px solid #189288;
+            background-color: #189288;
+            border-radius: 50px;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            font: bold;
+            display: inline-block;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .button2 a {
+            color: white;
+        }
+        .button2:hover {
+            background-color: #147068;
+            border-color: #147068;
+            transition: 0.5s;
+            margin-top: 10px;
+        }
+        /*end Navigation Bar*/
+
+        /*start 1st section*/
+        /*1st head*/
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            background-image: linear-gradient(123deg,#1e293b 24%,#0d9488 65%);
+            color: #fff;
+            line-height: 1.5em;
+            font-weight: 700;
+            letter-spacing: -.04em;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /*1st paragraph*/
+        .p1 {
+            text-align: center;
+            font-size: 23px;
+        }
+        /*1st button*/
+        .button3 {
+            text-align: center;
+            border: 5px solid #1daca0;
+            background-color: #1faa9f;
+            border-radius: 50px;
+            font-size: 30px;
+            margin-left: 780px;
+            padding: 10px;
+            font: bold;
+            display: inline-block;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .button3 a {
+            color: #fff;
+        }
+        .button3:hover{
+            margin-top: 3px;
+            position:relative;
+            transition: 0.5s;
+        }
+        /*2nd paragraph*/
+        .p2 {
+        text-align: center;
+    color: #64748b;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        /*end 1st section*/
+
+        /*start 2nd section*/
+
+        /* 1st img*/
+        .img1 {
+            margin-left: 200px;
+            position: absolute;
+            transform: translate3d(0px, -0.6022px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(310.856deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+            will-change: transform;
+        }
+        /*2nd img*/
+        .img2 {
+            margin-left: 1350px;
+            position: absolute;
+        }
+        /*3rd img*/
+        .img3 {
+            margin-left: 400px;
+            border-radius: 10px;
+        }
+        /*4th img*/
+        .img4 {
+            margin-left: -1245px;
+            margin-top: 160px;
+            position: absolute;
+        }
+        /*5th img*/
+        .img5 {
+            margin-left: -212px;
+            position: absolute;
+            margin-top: 330px;
+        }
+        /*end 2nd section*/
+        /*start 3rd section*/
+        section {
+            background-color: white;
+        }
+        /*2nd head*/
+        h2 {
+            text-align: end;
+            font-size: 55px;
+            background-image: linear-gradient(177.5deg,#1e293b 24%,#0d9488 65%);
+            color: #fff;
+            line-height: 1.5em;
+            font-weight: 700;
+            letter-spacing: -.04em;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 300px;
+        }
+        /*3rd paragraph*/
+        .p10 {
+            text-align: end;
+            margin-right: 300px;
+            color: #64748b;
+            font-size: 20px;
+            line-height: 32px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        .large-number {
+            text-align: start;
+            color: #1e293b;
+            font-size: 80px;
+            line-height: 80px;
+            font-weight: 700;
+            margin-left: 780px;
+            margin-top: -251px;
+        }
+        .text-span-4 {
+            font-size: 40px;
+            line-height: 0;
+        }
+        .stars {
+            margin-left: 745px;
+        }
+        .text-span-5 {
+            color: #1e293b;
+            font-weight: 700;
+            margin-left: 810px;
+        }
+        /*4th paragraph*/
+        .p4 {
+            margin-left: 275px;
+            float: left;
+            margin-top: -23px;
+            font-size: 18px;
+            direction: rtl;
+        }
+        .soc {
+            margin-left: 500px;
+        } 
+        /*3rd head*/
+        h3 {
+            text-align: end;
+            font-size: 55px;
+            background-image: linear-gradient(130deg,#1e293b 24%,#0d9488 65%);
+            color: #fff;
+            line-height: 1.5em;
+            font-weight: 700;
+            letter-spacing: -.04em;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-right: 300px;
+        }
+        /*5th paragraph*/
+        .p3 {
+            text-align: end;
+            margin-right: 300px;
+            color: #64748b;
+            font-size: 20px;
+            line-height: 32px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .box {
+            position: absolute;
+            width: 74%;
+            min-height: 608px;
+            border-radius: 16px;
+            background-color: #ebf8f6;
+            margin-left: 280px;
+        }
+        /*6th img*/
+        .img6 {
+            margin-top: 100px;
+            margin-left: 710px;
+            border-radius: 16px;
+            position: absolute;
+        }
+        /*7th img*/
+        .img7{
+            margin-top: 210px;
+            margin-left: 710px;
+            border-radius: 16px;
+            position: absolute;
+        }
+        /*8th img*/
+        .img8 {
+            margin-left: 1030px;
+            margin-top: 430px;
+            position: absolute;
+        }
+        /*4th head*/
+        h4 {
+            font-size: 60px;
+            line-height: 1.289em;
+            font-weight: 700;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 220px;
+            float: left;
+            margin-top: 115px;
+            direction: rtl;
+        }
+        /*6th paragraph*/
+        .p5 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 70px;
+            font-size: larger;
+            direction: rtl;
+            float: left;
+        }
+        /*4th button*/
+        .button4 {
+            border-color: #0d9488;
+            background-color: #0d9488;
+            border-radius: 50px;
+            font-size: 30px;
+            margin-left: 350px;
+            padding: 10px;
+            font: bold;
+            display: inline-block;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .button4 a {
+            color: #fff;
+        }
+        .button4:hover {
+            margin-top: 3px;
+            position:relative;
+            transition: 0.5s;
+        }
+        /*7th paragraph*/
+        .p6 {
+            font-size: 16px;
+            line-height: 1.6em;
+            margin-left: 280px;
+        }
+        /*1st icon setup*/
+        .img9 {
+            float: right;
+            margin-right: 200PX;
+
+        }
+        h5 {
+            font-size: xx-large;
+            float: right;
+            margin-right: 190px;
+        }
+        .p7 {
+            font-size: x-large;
+            margin-right: 190px;
+            direction: rtl;
+        }
+        /*2nd icon setup*/
+        .img10 {
+            float: right;
+            margin-right: 640px;
+            margin-top: -230px;
+        }
+        h6 {
+            font-size: xx-large;
+            float: right;
+            margin-right: 630px;
+            margin-top: -225px;
+        }
+        .p8{
+            direction: rtl;
+            font-size: 23px;
+            margin-right: 630px;
+            float: right;
+            margin-top: -225px;
+            
+        }
+        /*3rd icon setup*/
+        .img11 {
+        margin-right: 1030px;
+        float: right;
+        margin-top: -395px;
+        }
+        h7 {
+            font-size: xx-large;
+            float: right;
+            margin-right: 1010px;
+            margin-top: -333px;
+            font-weight: bold;
+        }
+        .p9 {
+            direction: rtl;
+            font-size: 23px;
+            margin-right: 1020px;
+            float: right;
+            margin-top: -330px;
+        }
+        /*4th icon setup*/
+        .img12 {
+        margin-right: 1430px;
+        float: right;
+        margin-top: -500px;
+        }
+        h15{
+            font-size: xx-large;
+            float: right;
+            font-size: xx-large;
+            margin-right: 1425px;
+            margin-top: -440px;
+            font-weight: bold;
+        }
+        .p11 {
+            direction: rtl;
+            font-size: 23px;
+            margin-right: 1425px;
+            float: right;
+            margin-top: -434px;
+        }
+        /*end 3rd section*/
+        /*start footer*/
+        footer {
+            background-color: #0f172a;
+            box-sizing: border-box;
+            direction: rtl;
+        }
+        .img13 {
+            margin-top: 200px;
+            margin-right: 200px;
+        }
+        .p12 {
+            color: #bdbdbd;
+            margin-right: 200px;
+            font-weight: bold;
+            font-size: large;
+        }
+        .facebook {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 28px;
+    max-height: 28px;
+    min-height: 28px;
+    min-width: 28px;
+    margin-right: 14px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #334d74;
+    -webkit-transition: background-color .3s,color .3s;
+    transition: background-color .3s,color .3s;
+    font-family: 'Icons Saaslify Template',sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 195px;
+        }
+        .facebook:hover {
+            background-color: #2db6aa;
+        }
+        .twitter {
+            display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 28px;
+    max-height: 28px;
+    min-height: 28px;
+    min-width: 28px;
+    margin-right: 14px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #334d74;
+    -webkit-transition: background-color .3s,color .3s;
+    transition: background-color .3s,color .3s;
+    font-family: 'Icons Saaslify Template',sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 245px;
+    margin-top: -28px;
+        }
+        .twitter:hover {
+            background-color: #2db6aa;
+        }
+        .instagram {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            width: 28px;
+            max-height: 28px;
+            min-height: 28px;
+            min-width: 28px;
+            margin-right: 14px;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 9999px;
+            background-color: #334d74;
+            -webkit-transition: background-color .3s,color .3s;
+            transition: background-color .3s,color .3s;
+            font-family: 'Icons Saaslify Template',sans-serif;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            margin-right: 300px;
+            margin-top: -28px;
+        }
+        .instagram:hover {
+            background-color: #2db6aa;
+        }
+        .linkedin {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            width: 28px;
+            max-height: 28px;
+            min-height: 28px;
+            min-width: 28px;
+            margin-right: 14px;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 9999px;
+            background-color: #334d74;
+            -webkit-transition: background-color .3s,color .3s;
+            transition: background-color .3s,color .3s;
+            font-family: 'Icons Saaslify Template',sans-serif;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            margin-right: 350px;
+            margin-top: -28px;
+        }
+        .linkedin:hover {
+            background-color: #2db6aa;
+        }
+        .youtube {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            width: 28px;
+            max-height: 28px;
+            min-height: 28px;
+            min-width: 28px;
+            margin-right: 14px;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border-radius: 9999px;
+            background-color: #334d74;
+            -webkit-transition: background-color .3s,color .3s;
+            transition: background-color .3s,color .3s;
+            font-family: 'Icons Saaslify Template',sans-serif;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            margin-right: 400px;
+            margin-top: -28px;
+        }
+        .youtube:hover {
+            background-color: #2db6aa;
+        }
+        .img14 {
+            margin-right: 195px;
+        }
+        .h8 {
+            color: white;
+            float: right;
+            margin-right: 650px;
+            margin-top: -432px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h9 {
+            color: white;
+            float: right;
+            margin-right: 1150px;
+            margin-top: -432px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .li1 {
+            float: right;
+            margin-right: 650px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -380px;
+        }
+        .li1:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li2 {
+            float: right;
+            margin-right: 650px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -340px;
+        }
+        .li2:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li3 {
+            float: right;
+            margin-right: 650px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -300px;
+        }
+        .li3:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li4 {
+            float: right;
+            margin-right: 650px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -250px;
+        }
+        .li4:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li5 {
+            float: right;
+            margin-right: 650px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -200px;
+        }
+        .li5:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li6 {
+            float: right;
+            margin-right: 850px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -380px;
+        }
+        .li6:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li7 {
+            float: right;
+            margin-right: 850px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -340px;
+        }
+        .li7:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li8 {
+            float: right;
+            margin-right: 850px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -300px;
+        }
+        .li8:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }.li9 {
+            float: right;
+            margin-right: 850px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -250px;
+        }
+        .li9:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li10 {
+            float: right;
+            margin-right: 850px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -200px;
+        }
+        .li10:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li11 {
+            float: right;
+            margin-right: 1150px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -380px;
+        }
+        .li11:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li12 {
+            float: right;
+            margin-right: 1150px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -330px;
+        }
+        .li12:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        .li13 {
+            float: right;
+            margin-right: 1150px;
+            color: #bdbdbd;
+            font-size: 18px;
+            margin-top: -280px;
+        }
+        .li13:hover {
+            color: #0d9488;
+            transition: 0.3s;
+        }
+        h10 {
+            color: white;
+            float: right;
+            margin-right: 1550px;
+            margin-top: -432px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .email {
+            background-color: #334d74;
+            border-radius: 11px;
+            color: #d5d9e0;
+            font-size: 14px;
+            line-height: 1.714em;
+            float: right;
+            margin-right: 1550px;
+            margin-top: -400px;
+            padding: 25px;
+        }
+        .email:hover {
+        background-color: #3f4555;
+        transition: 0.5s;
+        }
+        .mail-icon {
+            float: right;
+            margin-right: 1500px;
+            margin-top: -370px;
+        }
+        /*end footer*/
